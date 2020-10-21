@@ -11,6 +11,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #969494;
+    transform: scale(0.98);
+    transform-origin: 0 0;
 }
 #list1 
 {
