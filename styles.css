@@ -4,6 +4,14 @@ body
     padding: 0;
     font-family: sans-serif;    
 }
+body {
+    background-image: url(Images/home.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #969494;
+}
 #list1 
 {
     position: fixed;
@@ -94,11 +102,6 @@ div a#list{
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
-#container div#Home{
-    background-image: url("Images/home.jpeg");
-    background-size: cover;
-
-}
 #container div#Devs{
     background: #E3E0EB;
 }
@@ -143,7 +146,8 @@ body{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
+    padding-top: 100px;   
 }
 /* Animation */
 .anim-typewriter{
