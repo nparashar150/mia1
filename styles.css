@@ -148,13 +148,13 @@ body{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);
+    transform: translateY(-20%);
     padding-top: 100px;   
 }
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 3s steps(30) 1s 1 normal both,
+             blinkTextCursor 500ms steps(30) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
